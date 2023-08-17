@@ -1,0 +1,62 @@
+.heading-and-language .heading-language {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-language .heading {
+
+}
+
+.heading-language .language-translate {
+    display: flex;
+    border: 2px solid #d19629;
+    padding: 6px 20px;
+    height: 31px;
+    border-radius: 14px;
+}
+
+.heading-language .language-translate .language {
+    width: 60px;
+}
+
+.heading-language .language-translate .translate {
+    width: 33px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 38px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input {
+    font-family: Arial, FontAwesome;
+    width: calc(100% - 300px);
+    border: 1px solid #d1c6c6;
+    border-radius: 6px;
+    padding: 9px 11px;
+}
+
+.filter-box img {
+    width: 34px;
+    border-radius: 7px;
+    border: 2px solid orange;
+}
+
+.progress-container {
+    background: #f5cd8324
+}
+
+.video-box img {
+    width: 30px;
+}
+
+.icon-and-count img {
+    width: 20px;
+}
+
+.arrow-and-start img {
+    width: 20px;
+}
